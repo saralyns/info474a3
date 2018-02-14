@@ -1,0 +1,32 @@
+body {
+	background-color: lightcyan;
+}
+
+h1 {
+	font-family: "Raleway";
+	text-align: center;
+	padding: 20px;
+}
+
+#map {
+	align-content: center;
+	width: 960px;
+	height: 600px;
+}
+
+.states:hover {
+  fill: lightblue;
+}
+
+.states {
+	fill: lightgray;
+}
+
+.state-borders {
+  fill: none;
+  stroke: black;
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
