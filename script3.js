@@ -1,17 +1,15 @@
-var map = new L.Map("map", {center: [37.8, -96.9], zoom: 4})
-    .addLayer(new L.TileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"));
+$(function () {
 
-var svg = d3.select(map.getPanes().overlayPane).append("svg"),
-    g = svg.append("g").attr("class", "leaflet-zoom-hide");
+	// var drawMap = function () {
+		var map = L.map('mapid').setView([37.09024, -95.712891], 4);
 
+		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
 
-d3.json("us-states.json", function(error, collection) {
-  if (error) throw error;
+		/* L.marker([51.5, -0.09]).addTo(map)
+		.bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+		.openPopup();*/
+	// 
 
-  // code here
 });
-
-
-function projectPoint (x,y) {
-	
-}

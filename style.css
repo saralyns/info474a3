@@ -1,20 +1,32 @@
 body {
 	background-color: lightcyan;
+	font-family: "Roboto Slab", serif;
 }
 
 h1 {
-	font-family: "Raleway";
+	font-family: "Spectral SC", serif;
 	text-align: center;
 	padding: 20px;
 }
 
-#map {
-	align-content: center;
-	width: 960px;
-	height: 600px;
+#exp {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 20px;
 }
 
-.states:hover {
+#mapid {
+	width: 960px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+footer {
+	position: absolute;
+	bottom: 5px;
+}
+
+/*.states:hover {
   fill: lightblue;
 }
 
@@ -29,4 +41,4 @@ h1 {
   stroke-linejoin: round;
   stroke-linecap: round;
   pointer-events: none;
-}
+}*/
