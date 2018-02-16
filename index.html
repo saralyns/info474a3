@@ -1,45 +1,47 @@
 <!-- DOCTYPE HTML -->
 
 <head>
-	<title>Mass Shootings in the US, 2017-2018</title>
-	<script src="https://d3js.org/d3.v4.min.js"></script>
-	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
-	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-	<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
-	
-	<link rel="stylesheet" href="style.css">
+    <title>Mass Shootings in the US, 2017-2018</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
 
-	<!-- Leaflet CSS and JavaScript --> 
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
-	integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
-	crossorigin=""/>
-	<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
-	integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
-	crossorigin=""></script>
+    <link rel="stylesheet" href="style.css">
+    
 
-	<!-- Fonts --> 
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Spectral+SC" rel="stylesheet">
+    <!-- Leaflet CSS and JavaScript --> 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
+          integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+          crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+            integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+            crossorigin=""></script>
+
+    <!-- Fonts --> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Spectral+SC" rel="stylesheet">
 </head>
 
 <body>
-	<h1>Mass Shootings in the US, 2017-2018</h1>
-	<div id="exp">
-		<div id="quote"><p><i>Caring for our kids is our first job. And until we can honestly say that we're doing enough to keep them safe from harm, including long overdue, common-sense gun safety laws that most Americans want, then we have to change.</i></p>
-        <p>&mdash; Barack Obama, <a href="https://twitter.com/BarackObama/status/964185606803853314">February 14th, 2018</a></p>
+    <h1>Mass Shootings in the US, 2017-2018</h1>
+    <div id="exp">
+        <div id="quote">
+            <p><i>Caring for our kids is our first job. And until we can honestly say that we're doing enough to keep them safe from harm, including long overdue, common-sense gun safety laws that most Americans want, then we have to change.</i></p>
+            <p>&mdash; Barack Obama, <a href="https://twitter.com/BarackObama/status/964185606803853314">February 14th, 2018</a></p>
         </div>
-        
-        <p>This visualization tracks mass shootings in the United States from January 1st, 2017 to February 14th, 2018.</p>
-		<p>[insert some kind of explanation here]</p>
-		<p>Information sourced from <a href="http://www.gunviolencearchive.org/mass-shooting">Gun Violence Archive</a>.</p>
-	</div>
-	<div id="mapid">
-		<svg height="600" width="960"></svg>		
-		<script src="script3.js"></script>
-	</div>
 
-	<footer>
-		Created by Saralyn Santos | INFO 474 A | Assignment 3 | February 16th, 2018
-	</footer>
+        <p>This visualization tracks mass shootings in the United States from January 1st, 2017 to February 14th, 2018.</p>
+        <p>Click the checkboxes on the map to filter mass shootings by month.</p>
+        <p>Information sourced from <a href="http://www.gunviolencearchive.org/mass-shooting">Gun Violence Archive</a>.</p>
+    </div>
+
+    <div id="mapid">		
+        <script src="script3.js"></script>
+    </div>
+
+    <footer>
+        Created by Saralyn Santos | INFO 474 A | Assignment 3 | February 16th, 2018
+    </footer>
 </body>
 
 
