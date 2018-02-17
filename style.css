@@ -32,6 +32,10 @@ footer {
     margin: auto;
 }
 
+.inj {
+    color: #A10000;
+}
+
 /*.states:hover {
   fill: lightblue;
 }
